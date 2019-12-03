@@ -1,0 +1,12 @@
+F:\TEST\SMCPayment\SMCPayment.BLL\bin\Release\SMCPayment.BLL.dll
+F:\TEST\SMCPayment\SMCPayment.BLL\bin\Release\SMCPayment.BLL.pdb
+F:\TEST\SMCPayment\SMCPayment.BLL\bin\Release\SMCPAyment.DAL.dll
+F:\TEST\SMCPayment\SMCPayment.BLL\bin\Release\EntityFramework.dll
+F:\TEST\SMCPayment\SMCPayment.BLL\bin\Release\SMCPAyment.DAL.pdb
+F:\TEST\SMCPayment\SMCPayment.BLL\bin\Release\SMCPAyment.DAL.dll.config
+F:\TEST\SMCPayment\SMCPayment.BLL\bin\Release\EntityFramework.xml
+F:\TEST\SMCPayment\SMCPayment.BLL\obj\Release\SMCPayment.BLL.csprojAssemblyReference.cache
+F:\TEST\SMCPayment\SMCPayment.BLL\obj\Release\SMCPayment.BLL.csproj.CoreCompileInputs.cache
+F:\TEST\SMCPayment\SMCPayment.BLL\obj\Release\SMCPayment.BLL.csproj.CopyComplete
+F:\TEST\SMCPayment\SMCPayment.BLL\obj\Release\SMCPayment.BLL.dll
+F:\TEST\SMCPayment\SMCPayment.BLL\obj\Release\SMCPayment.BLL.pdb

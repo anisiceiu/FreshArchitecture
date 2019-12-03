@@ -1,0 +1,11 @@
+F:\TEST\SMCPayment\SMCPAyment.DAL\bin\Release\SMCPAyment.DAL.dll.config
+F:\TEST\SMCPayment\SMCPAyment.DAL\bin\Release\SMCPAyment.DAL.dll
+F:\TEST\SMCPayment\SMCPAyment.DAL\bin\Release\SMCPAyment.DAL.pdb
+F:\TEST\SMCPayment\SMCPAyment.DAL\bin\Release\EntityFramework.dll
+F:\TEST\SMCPayment\SMCPAyment.DAL\bin\Release\EntityFramework.SqlServer.dll
+F:\TEST\SMCPayment\SMCPAyment.DAL\bin\Release\EntityFramework.xml
+F:\TEST\SMCPayment\SMCPAyment.DAL\bin\Release\EntityFramework.SqlServer.xml
+F:\TEST\SMCPayment\SMCPAyment.DAL\obj\Release\SMCPAyment.DAL.csproj.CoreCompileInputs.cache
+F:\TEST\SMCPayment\SMCPAyment.DAL\obj\Release\SMCPAyment.DAL.csproj.CopyComplete
+F:\TEST\SMCPayment\SMCPAyment.DAL\obj\Release\SMCPAyment.DAL.dll
+F:\TEST\SMCPayment\SMCPAyment.DAL\obj\Release\SMCPAyment.DAL.pdb

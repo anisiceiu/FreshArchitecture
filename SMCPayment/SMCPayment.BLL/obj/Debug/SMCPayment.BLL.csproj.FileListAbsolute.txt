@@ -1,0 +1,14 @@
+F:\TEST\SMCPayment\SMCPayment.BLL\bin\Debug\SMCPayment.BLL.dll
+F:\TEST\SMCPayment\SMCPayment.BLL\bin\Debug\SMCPayment.BLL.pdb
+F:\TEST\SMCPayment\SMCPayment.BLL\bin\Debug\AutoMapper.dll
+F:\TEST\SMCPayment\SMCPayment.BLL\bin\Debug\SMCPAyment.DAL.dll
+F:\TEST\SMCPayment\SMCPayment.BLL\bin\Debug\EntityFramework.dll
+F:\TEST\SMCPayment\SMCPayment.BLL\bin\Debug\SMCPAyment.DAL.pdb
+F:\TEST\SMCPayment\SMCPayment.BLL\bin\Debug\SMCPAyment.DAL.dll.config
+F:\TEST\SMCPayment\SMCPayment.BLL\bin\Debug\AutoMapper.xml
+F:\TEST\SMCPayment\SMCPayment.BLL\bin\Debug\EntityFramework.xml
+F:\TEST\SMCPayment\SMCPayment.BLL\obj\Debug\SMCPayment.BLL.csprojAssemblyReference.cache
+F:\TEST\SMCPayment\SMCPayment.BLL\obj\Debug\SMCPayment.BLL.csproj.CoreCompileInputs.cache
+F:\TEST\SMCPayment\SMCPayment.BLL\obj\Debug\SMCPayment.BLL.csproj.CopyComplete
+F:\TEST\SMCPayment\SMCPayment.BLL\obj\Debug\SMCPayment.BLL.dll
+F:\TEST\SMCPayment\SMCPayment.BLL\obj\Debug\SMCPayment.BLL.pdb
