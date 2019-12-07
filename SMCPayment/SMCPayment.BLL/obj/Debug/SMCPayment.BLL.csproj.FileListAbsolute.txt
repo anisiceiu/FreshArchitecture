@@ -12,3 +12,22 @@ F:\TEST\SMCPayment\SMCPayment.BLL\obj\Debug\SMCPayment.BLL.csproj.CoreCompileInp
 F:\TEST\SMCPayment\SMCPayment.BLL\obj\Debug\SMCPayment.BLL.csproj.CopyComplete
 F:\TEST\SMCPayment\SMCPayment.BLL\obj\Debug\SMCPayment.BLL.dll
 F:\TEST\SMCPayment\SMCPayment.BLL\obj\Debug\SMCPayment.BLL.pdb
+F:\TEST\Git Repo\FreshArchitecture\SMCPayment\SMCPayment.BLL\bin\Debug\SMCPayment.BLL.dll.config
+F:\TEST\Git Repo\FreshArchitecture\SMCPayment\SMCPayment.BLL\bin\Debug\SMCPayment.BLL.dll
+F:\TEST\Git Repo\FreshArchitecture\SMCPayment\SMCPayment.BLL\bin\Debug\SMCPayment.BLL.pdb
+F:\TEST\Git Repo\FreshArchitecture\SMCPayment\SMCPayment.BLL\bin\Debug\AutoMapper.dll
+F:\TEST\Git Repo\FreshArchitecture\SMCPayment\SMCPayment.BLL\bin\Debug\EntityFramework.dll
+F:\TEST\Git Repo\FreshArchitecture\SMCPayment\SMCPayment.BLL\bin\Debug\EntityFramework.SqlServer.dll
+F:\TEST\Git Repo\FreshArchitecture\SMCPayment\SMCPayment.BLL\bin\Debug\Ninject.dll
+F:\TEST\Git Repo\FreshArchitecture\SMCPayment\SMCPayment.BLL\bin\Debug\SMCPAyment.DAL.dll
+F:\TEST\Git Repo\FreshArchitecture\SMCPayment\SMCPayment.BLL\bin\Debug\SMCPAyment.DAL.pdb
+F:\TEST\Git Repo\FreshArchitecture\SMCPayment\SMCPayment.BLL\bin\Debug\SMCPAyment.DAL.dll.config
+F:\TEST\Git Repo\FreshArchitecture\SMCPayment\SMCPayment.BLL\bin\Debug\AutoMapper.xml
+F:\TEST\Git Repo\FreshArchitecture\SMCPayment\SMCPayment.BLL\bin\Debug\EntityFramework.xml
+F:\TEST\Git Repo\FreshArchitecture\SMCPayment\SMCPayment.BLL\bin\Debug\EntityFramework.SqlServer.xml
+F:\TEST\Git Repo\FreshArchitecture\SMCPayment\SMCPayment.BLL\bin\Debug\Ninject.xml
+F:\TEST\Git Repo\FreshArchitecture\SMCPayment\SMCPayment.BLL\obj\Debug\SMCPayment.BLL.csprojAssemblyReference.cache
+F:\TEST\Git Repo\FreshArchitecture\SMCPayment\SMCPayment.BLL\obj\Debug\SMCPayment.BLL.csproj.CoreCompileInputs.cache
+F:\TEST\Git Repo\FreshArchitecture\SMCPayment\SMCPayment.BLL\obj\Debug\SMCPayment.BLL.csproj.CopyComplete
+F:\TEST\Git Repo\FreshArchitecture\SMCPayment\SMCPayment.BLL\obj\Debug\SMCPayment.BLL.dll
+F:\TEST\Git Repo\FreshArchitecture\SMCPayment\SMCPayment.BLL\obj\Debug\SMCPayment.BLL.pdb

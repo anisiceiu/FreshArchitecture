@@ -10,3 +10,15 @@ F:\TEST\SMCPayment\SMCPAyment.DAL\obj\Debug\SMCPAyment.DAL.csproj.CoreCompileInp
 F:\TEST\SMCPayment\SMCPAyment.DAL\obj\Debug\SMCPAyment.DAL.csproj.CopyComplete
 F:\TEST\SMCPayment\SMCPAyment.DAL\obj\Debug\SMCPAyment.DAL.dll
 F:\TEST\SMCPayment\SMCPAyment.DAL\obj\Debug\SMCPAyment.DAL.pdb
+F:\TEST\Git Repo\FreshArchitecture\SMCPayment\SMCPAyment.DAL\bin\Debug\SMCPAyment.DAL.dll.config
+F:\TEST\Git Repo\FreshArchitecture\SMCPayment\SMCPAyment.DAL\bin\Debug\SMCPAyment.DAL.dll
+F:\TEST\Git Repo\FreshArchitecture\SMCPayment\SMCPAyment.DAL\bin\Debug\SMCPAyment.DAL.pdb
+F:\TEST\Git Repo\FreshArchitecture\SMCPayment\SMCPAyment.DAL\bin\Debug\EntityFramework.dll
+F:\TEST\Git Repo\FreshArchitecture\SMCPayment\SMCPAyment.DAL\bin\Debug\EntityFramework.SqlServer.dll
+F:\TEST\Git Repo\FreshArchitecture\SMCPayment\SMCPAyment.DAL\bin\Debug\EntityFramework.xml
+F:\TEST\Git Repo\FreshArchitecture\SMCPayment\SMCPAyment.DAL\bin\Debug\EntityFramework.SqlServer.xml
+F:\TEST\Git Repo\FreshArchitecture\SMCPayment\SMCPAyment.DAL\obj\Debug\SMCPAyment.DAL.csprojAssemblyReference.cache
+F:\TEST\Git Repo\FreshArchitecture\SMCPayment\SMCPAyment.DAL\obj\Debug\SMCPAyment.DAL.csproj.CoreCompileInputs.cache
+F:\TEST\Git Repo\FreshArchitecture\SMCPayment\SMCPAyment.DAL\obj\Debug\SMCPAyment.DAL.csproj.CopyComplete
+F:\TEST\Git Repo\FreshArchitecture\SMCPayment\SMCPAyment.DAL\obj\Debug\SMCPAyment.DAL.dll
+F:\TEST\Git Repo\FreshArchitecture\SMCPayment\SMCPAyment.DAL\obj\Debug\SMCPAyment.DAL.pdb

@@ -70,6 +70,7 @@
     <Compile Include="Models\IBaseDomainModel.cs" />
     <Compile Include="Models\IDataModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\CustomerService.cs" />
     <Compile Include="Services\BrandService.cs" />
     <Compile Include="Services\IBusinessService.cs" />
     <Compile Include="Services\IService.cs" />
