@@ -12,7 +12,7 @@ namespace SMCPAyment.DAL.Repository
 
     }
 
-   public  class BrandRepository:Repository<brand>
+   public  class BrandRepository:Repository<brand>,IBrandRepository
     {
         public BrandRepository()
         {

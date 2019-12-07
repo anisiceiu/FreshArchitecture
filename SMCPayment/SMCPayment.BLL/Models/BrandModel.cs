@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SMCPayment.BLL.Models
 {
-   public class BrandModel
+   public class BrandModel:BaseDomainModel<BrandModel>
     {
         public int brand_id { get; set; }
         public string brand_name { get; set; }

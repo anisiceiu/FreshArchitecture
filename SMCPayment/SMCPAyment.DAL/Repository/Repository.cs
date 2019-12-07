@@ -9,49 +9,51 @@ using System.Threading.Tasks;
 
 namespace SMCPAyment.DAL
 {
-    public class Repository<T> : IRepository<T> where T : class
+    public class Repository<T> : IRepository<T> 
+        where T : class
+    
     {
-        private SMCPaymentEntities context;
+        private readonly SMCPaymentEntities _dbContext;
 
-        private DbSet<T> dbSet;
+        internal DbSet<T> DbSet;
 
         public Repository()
         {
-            context = new SMCPaymentEntities();
-            dbSet = context.Set<T>();
+            _dbContext = new SMCPaymentEntities();
+            DbSet = _dbContext.Set<T>();
         }
         public IEnumerable<T> GetAll()
         {
-            return dbSet.ToList();
+            return _dbContext.Set<T>().AsNoTracking().AsEnumerable();
         }
         public T GetById(object id)
         {
-            return dbSet.Find(id);
+            return DbSet.Find(id);
         }
         public T Insert(T obj)
         {
-            dbSet.Add(obj);
+            DbSet.Add(obj);
             Save();
             return obj;
         }
         public void Delete(object id)
         {
-            T entityToDelete = dbSet.Find(id);
+            T entityToDelete = DbSet.Find(id);
             Delete(entityToDelete);
         }
         public void Delete(T entityToDelete)
         {
-            if (context.Entry(entityToDelete).State == EntityState.Detached)
+            if (_dbContext.Entry(entityToDelete).State == EntityState.Detached)
             {
-                dbSet.Attach(entityToDelete);
+                DbSet.Attach(entityToDelete);
 
             }
-            dbSet.Remove(entityToDelete);
+            DbSet.Remove(entityToDelete);
         }
         public T Update(T obj)
         {
-            dbSet.Attach(obj);
-            context.Entry(obj).State = EntityState.Modified;
+            DbSet.Attach(obj);
+            _dbContext.Entry(obj).State = EntityState.Modified;
 
             Save();
             return obj;
@@ -60,7 +62,7 @@ namespace SMCPAyment.DAL
         {
             try
             {
-                context.SaveChanges();
+                _dbContext.SaveChanges();
 
             }
             catch (DbEntityValidationException dbEx)
@@ -75,17 +77,7 @@ namespace SMCPAyment.DAL
                 }
             }
         }
-        protected virtual void Dispose(bool disposing)
-        {
-            if (disposing)
-            {
-                if (context != null)
-                {
-                    context.Dispose();
-                    context = null;
-                }
-            }
-        }
+      
 
     }
 }

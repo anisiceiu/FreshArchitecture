@@ -18,6 +18,8 @@ namespace SMCPAyment.DAL.Models
         public SMCPaymentEntities()
             : base("name=SMCPaymentEntities")
         {
+           
+           
         }
     
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

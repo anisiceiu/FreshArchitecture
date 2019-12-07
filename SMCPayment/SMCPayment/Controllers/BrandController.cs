@@ -1,7 +1,9 @@
 ﻿using SMCPayment.BLL;
 using SMCPayment.BLL.Models;
 using SMCPayment.BLL.Services;
+using SMCPAyment.DAL;
 using SMCPAyment.DAL.Models;
+using SMCPAyment.DAL.Repository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,11 +16,12 @@ namespace SMCPayment.Controllers
     [RoutePrefix("Brand")]
     public class BrandController : ApiController
     {
-        private readonly IService<brand,BrandModel> _brandService;
+      
+        private readonly IBrandService brandService;
         
-        public BrandController(IService<brand, BrandModel> brandService)
+        public BrandController(IBrandService _brandService)
         {
-            _brandService = brandService;
+            this.brandService = _brandService;
         }
 
         
@@ -28,7 +31,7 @@ namespace SMCPayment.Controllers
         {
             try
             {
-                var list= _brandService.GetAll().ToList();
+                var list = this.brandService.GetAll().ToList();
                 return Request.CreateResponse(HttpStatusCode.OK, list);
             }
             catch (Exception ex)

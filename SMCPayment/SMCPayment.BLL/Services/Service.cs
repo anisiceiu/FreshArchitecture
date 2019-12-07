@@ -9,32 +9,30 @@ using SMCPAyment.DAL;
 
 namespace SMCPayment.BLL.Services
 {
-    public class Service<T, U>:IService<T,U> where T : class where U : class
+    public class Service<T,U>:IBusinessService<T,U> where T:IDomainModel
     {
-        public readonly IRepository<T> _repository;
-        public Service(IRepository<T> repository)
+        public readonly IRepository<U> _repository;
+        public Service(IRepository<U> repository)
         {
             _repository = repository;
                 
-        }
+        } 
 
-        
-
-        public IEnumerable<U> GetAll()
+        public IEnumerable<T> GetAll()
         {
 
-            return Mapper.Map <IEnumerable<U>>(_repository.GetAll());
+            return Mapper.Map <IEnumerable<T>>(_repository.GetAll());
         }
-        public U GetById(object Id)
+        public T GetById(object Id)
         {
 
-            return Mapper.Map <U>(_repository.GetById(Id));
+            return Mapper.Map <T>(_repository.GetById(Id));
         }
 
-        public U Insert(U obj)
+        public T Insert(T obj)
         {
 
-            return Mapper.Map<U>(_repository.Insert(Mapper.Map<T>(obj)));
+            return Mapper.Map<T>(_repository.Insert(Mapper.Map<U>(obj)));
         }
 
         public void  Delete(object Id)
@@ -42,10 +40,15 @@ namespace SMCPayment.BLL.Services
 
             _repository.Delete(Id);
         }
-        public U Update(U obj)
+        public void Delete(T entity)
         {
 
-            return Mapper.Map<U>(_repository.Update(Mapper.Map<T>(obj)));
+           _repository.Delete(Mapper.Map<U>(entity));
+        }
+        public T Update(T obj)
+        {
+
+            return Mapper.Map<T>(_repository.Update(Mapper.Map<U>(obj)));
         }
         public void Save()
         {

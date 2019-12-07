@@ -5,13 +5,16 @@ namespace SMCPayment.App_Start
 {
     using System;
     using System.Web;
-
+    using System.Web.Http;
     using Microsoft.Web.Infrastructure.DynamicModuleHelper;
 
     using Ninject;
     using Ninject.Web.Common;
     using Ninject.Web.Common.WebHost;
+    using Ninject.Web.WebApi;
     using SMCPayment.BLL;
+    using SMCPayment.BLL.IOC;
+    using SMCPayment.BLL.Mapping;
     using SMCPayment.BLL.Services;
     using SMCPAyment.DAL;
     using SMCPAyment.DAL.Repository;
@@ -50,6 +53,8 @@ namespace SMCPayment.App_Start
                 kernel.Bind<Func<IKernel>>().ToMethod(ctx => () => new Bootstrapper().Kernel);
                 kernel.Bind<IHttpModule>().To<HttpApplicationInitializationHttpModule>();
                 RegisterServices(kernel);
+                AutoMapperInitializer.Initialize();
+                //GlobalConfiguration.Configuration.DependencyResolver = new NinjectDependencyResolver(kernel);
                 return kernel;
             }
             catch
@@ -65,11 +70,9 @@ namespace SMCPayment.App_Start
         /// <param name="kernel">The kernel.</param>
         private static void RegisterServices(IKernel kernel)
         {
-            kernel.Bind(typeof(IRepository<>)).To(typeof(Repository<>));
-           // kernel.Bind(typeof(IBrandRepository)).To(typeof(BrandRepository));
-            kernel.Bind(typeof(IService<,>)).To(typeof(Service<,>));
-           // kernel.Bind(typeof(IBrandService)).To(typeof(BrandService));
-            
+            kernel.Load<RepositoryNinjectModule>();
+            kernel.Load<ServiceNinjectModule>();
+
         }        
     }
 }

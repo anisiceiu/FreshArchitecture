@@ -7,21 +7,23 @@ using SMCPAyment.DAL.Repository;
 using SMCPAyment.DAL.Models;
 using SMCPayment.BLL.Models;
 using SMCPayment.BLL.Services;
+using SMCPAyment.DAL;
 
 namespace SMCPayment.BLL
 {
-    public interface IBrandService:IService<brand,BrandModel>
+    public interface IBrandService:IBusinessService<BrandModel,brand>
     {
-
     }
-  public  class BrandService:Service<brand,BrandModel>
+  public  class BrandService:Service<BrandModel,brand>,IBrandService
     {
 
         private readonly IBrandRepository _brandRepository;
 
-        public BrandService(IBrandRepository brandRepository) :base(new BrandRepository())
+        public BrandService(IBrandRepository brandRepository):base(brandRepository)
         {
-            _brandRepository = brandRepository;  
+            _brandRepository = brandRepository; 
         }
+
+        
     }
 }
